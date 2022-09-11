@@ -4,19 +4,43 @@
 <meta charset="utf-8">
 <title>second_assignment</title>
 	<style>
-	
-		body{background-color: black;}
-		container{
+		
+			
+		body{background-color: black;
+		background-image: url("images/electric_orig.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;}
+		#container{
 		width:1000px;
 		margin:0 auto;}
 		#table,th,td{
-		  border:1px solid red;
+		  border:1px solid white;
 		}
-	
+		
 		h1{color:red;font-size:50px;text-align: center;}
 		p{color:red;font-weight:600px;font-size:20px;margin-left:0 auto;}
-		th{color:red;font-size:20px;padding-right:5px;}
-		td{color:red;font-size:20px;}
+		th{color:red;font-size:25px;padding-right:5px;}
+		td{color:red;font-size:20px;
+			}
+		
+		a{color: red;}
+		a:hover{color:blue;
+		font-size: 20px;
+		}
+		img{
+			border:5px solid black;class="center"
+		
+		}
+		.friend{background-color:green;
+			color:white;
+			padding:10px;
+		}
+		.Rival{background-color:yellow;
+		color:orange;
+		padding:10px;
+		}
+		
+		
 	</style>
 </head>
 <body>
@@ -28,14 +52,45 @@
 	  <table style="width:100%">
 			<tr>
 				<th>Character Name</th>
-				<th>relationship to Main Character</th>
+				<th>Relationship to Main Character</th>
 				<th>powers/abilities</th>
 			</tr>
 			<tr>
 				<td align="center">Raphael</td>
-			  <td align="center">Self/the main character</td>
+			  <td align="center">the main character</td>
 			  <td align="center">???</td>
-	  </tr></table>
+		    </tr>
+		  	<tr>
+		  		<td align="center"> Jenna</td>
+		  		<td class="friend" align="center"> Friend </td>
+		  		<td align="center"> <a  href="azure.html">Electricity/Lightning Manipulation</a></td>
+		    </tr>
+		  	<tr>
+				<td align="center"> Fenix</td>
+				<td class="Rival" align="center"> Rival</td>
+				<td align="center"> Supersonic Flight</td>
+		  	</tr>
+		  	<tr>
+				<td align="center"> Breeze</td>
+				<td class="friend" align="center"> Friend</td>
+				<td align="center"> Wind Manipulation</td>
+		  	</tr>
+		  
+		</table>
+		<img src="images/concept of protag costume.jpg" alt="concept of main character" class="center">
+		<p> Above is the concept drawing of the main character in his costume.</p>
+		<br>
+		<br>
+		<p><a href="https://www.instagram.com/robo_cobo?r=nametag">Visit my Instagram</a></p>
+		<p id="demo"> push the button.</p>
+		<button type="button" onclick="myFunction()">Push This!</button>
+		<script>
+		function myFunction() {
+			document.getElementById("demo").innerHTML="You Did It!";
+		}
+		</script>
+		
+		<!-- my second image is in the link labeled "Electricity/Lightning Manipulation"-->
 		
 </div>
 </body>
