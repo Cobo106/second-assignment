@@ -6,49 +6,7 @@
 	<style>
 		
 			
-		body{
-			 margin: 0;
-  background: #1d1d1d;
-}
-.center {
-  position: absolute;
-  margin: auto;
-  top: 0; bottom:0;
-  left:0; right:0;
-}
-
-.container {  
-  width: 500px;
-  height: 500px;
-}
-
-.circle {
-  border-radius: 50%;
-  border: #88F9A1 solid 2px;
-  mix-blend-mode: screen;
-  box-shadow: #88F9A1 0 0 10px 0;
-}
-
-@for $i from 0 to 7 {
-  .circle:nth-child(#{$i}){
-      background: darken(#88F9A1, $i*10);
-      width: $i*40px;
-      height: (7-$i)*40px;
-      animation: animX 5s $i*0.1s infinite;
-  }
-}
-
-@keyframes animX {
-  50%{
-    transform: rotateX(180deg);
-  }
-}
-			
-			
-			
-			
-			
-			background-color: black;
+		body{background-color: black;
 		background-image: url("images/electric_orig.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;}
@@ -119,7 +77,8 @@
 		  	</tr>
 		  
 		</table>
-<p> Above is the concept drawing of the main character in his costume.</p>
+		<img src="images/concept of protag costume.jpg" alt="concept of main character" class="center">
+		<p> Above is the concept drawing of the main character in his costume.</p>
 		<br>
 		<br>
 		<p><a href="https://www.instagram.com/robo_cobo?r=nametag">Visit my Instagram</a></p>
